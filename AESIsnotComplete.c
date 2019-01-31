@@ -66,7 +66,7 @@ int main(){
 
  unsigned int divbinomial( unsigned int A){
      unsigned int CONSTANT = 0x11b, maxbitCONSTANT = 8;
-     unsigned int sampleA = 1, diffdregree = 0;
+     unsigned int diffdregree = 0;
      unsigned int newValue = 0;
      unsigned int currentBit = testingMaxbit(A);
 
